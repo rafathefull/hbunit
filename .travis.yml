@@ -1,7 +1,7 @@
 language: c
 compiler: gcc
 before_install:
- - sudo apt-get install -qq update
+ - sudo apt-get -qq update
  - sudo apt-get install -qq libncurses-dev
  - sudo apt-get install -qq libslang2-dev
  - sudo apt-get install -qq unzip
